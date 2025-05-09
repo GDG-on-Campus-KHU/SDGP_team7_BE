@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = ""
 
 # 프롬프트 생성
 def build_prompt(context: str, role: str, history: list[str], selected_words: list[str]) -> str:
